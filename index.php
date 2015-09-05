@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
             <div class="contents">
-                コンテンツ
                 <div class="posts">
 
                     <?php
