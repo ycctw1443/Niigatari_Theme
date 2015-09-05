@@ -19,7 +19,8 @@
                     「新潟」と「語り」に関する活動を行っています。
                 </div>
                 <div class="header-right">
-                    <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('2')): ?>
+                    <?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>
+                    <?php endif; ?>
                 </div>
             </div>
 
