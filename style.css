@@ -56,13 +56,19 @@ body{
 }
 
 .menu li{
-  width: 120px;
+  width: 140px;
   background-color: chartreuse;
   list-style: none;
   border-right:1px solid greenyellow;
-  padding: 10px;
   float: left;
   text-align: center;
+}
+
+.menu a{
+    padding:10px 0;
+    text-decoration: none;
+    display: block;
+    color: black;
 }
 
 .menu li:hover{
