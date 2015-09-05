@@ -7,42 +7,42 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(4) )
 register_sidebars(1,
     array(
     'name'=>'サイドバー1',
-    'before_widget' => '<ul><li>',
-    'after_widget' => '</li></ul>',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>',
+    'before_widget' => '<div class="widget">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
     ));
 register_sidebars(1,
     array(
     'name'=>'サイドバー2',
-    'before_widget' => '<ul><li>',
-    'after_widget' => '</li></ul>',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>',
+    'before_widget' => '<div class="widget">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
     ));
 register_sidebars(1,
     array(
     'name'=>'サイドバー3',
-    'before_widget' => '',
-    'after_widget' => '',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>',
+    'before_widget' => '<div class="widget">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
 ));
 register_sidebars(1,
     array(
     'name'=>'サイドバー4',
-    'before_widget' => '<ul><li>',
-    'after_widget' => '</li></ul>',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>',
+    'before_widget' => '<div class="widget">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
     ));
 register_sidebars(1,
     array(
     'name'=>'サイドバー5',
-    'before_widget' => '<ul><li>',
-    'after_widget' => '</li></ul>',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>',
+    'before_widget' => '<div class="widget">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
 ));
 
 
