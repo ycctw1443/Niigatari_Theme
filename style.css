@@ -50,8 +50,10 @@ body{
 .menu{
     width: 850px;
     margin: 0 auto;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
 }
-
 
 .menu li{
   width: 120px;
