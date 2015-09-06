@@ -1,6 +1,12 @@
 <?php get_header(); ?>
 
             <div class="contents">
+
+                <div class="slider">
+
+                </div>
+
+
                 <div class="posts">
 
                     <?php
