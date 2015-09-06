@@ -78,6 +78,8 @@ body{
 /*コンテンツ*/
 
 .main{
+    min-width: 935px;
+    max-width: 935px;
     background-color: white;
     display: table-cell;
 }
