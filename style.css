@@ -77,9 +77,10 @@ body{
 
 /*コンテンツ*/
 
+
+
 .contents{
   width: 70%;
-  height:800px;
   background-color: white;
   float: left;
 }
@@ -125,7 +126,6 @@ body{
 
 .sidebar{
   width: 30%;
-  height: 800px;
   background-color: white;
   float: right;
 }
@@ -140,7 +140,7 @@ body{
 
 
 .footer{
-  height: 100px;
+  height: 30px;
   width: 100%;
   clear:both;
 }
