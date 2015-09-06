@@ -77,10 +77,16 @@ body{
 
 /*コンテンツ*/
 
+.main{
+    float:left;
+    display: table;
+}
+
+
 .contents{
   width: 70%;
   background-color: white;
-  float: left;
+  display: table-cell;
 }
 
 .slider{
@@ -129,7 +135,7 @@ body{
 .sidebar{
   width: 30%;
   background-color: white;
-  float: right;
+  display: table-cell;
 }
 
 .widget{

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+        <div class="main">
             <div class="contents">
                 <div class="posts">
 
@@ -45,5 +45,5 @@
             </div>
 
             <?php get_sidebar(); ?>
-
+        </div>
             <?php get_footer(); ?>

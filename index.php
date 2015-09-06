@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+        <div class="main">
             <div class="contents">
                     <div class="slider">
                 		<!-- Start cssSlider.com -->
@@ -107,5 +107,5 @@
             </div>
 
             <?php get_sidebar(); ?>
-
+        </div>
             <?php get_footer(); ?>
