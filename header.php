@@ -15,6 +15,7 @@
                 </div>
                 <div class="header-contents">
                     <p class="copy">「新潟を語り、新潟から語りかける」</p>
+                    <br>
                     新潟りは、そんなことを思い描きながら<br>
                     「新潟」と「語り」に関する活動を行っています。
                 </div>

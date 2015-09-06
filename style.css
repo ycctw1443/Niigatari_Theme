@@ -78,12 +78,13 @@ body{
 /*コンテンツ*/
 
 .main{
-    float:left;
-    display: table;
+    background-color: white;
+    display: table-cell;
 }
 
 
 .contents{
+  float: left;
   width: 70%;
   background-color: white;
   display: table-cell;
@@ -133,6 +134,7 @@ body{
 
 
 .sidebar{
+  float: left;
   width: 30%;
   background-color: white;
   display: table-cell;
