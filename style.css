@@ -77,12 +77,14 @@ body{
 
 /*コンテンツ*/
 
-
-
 .contents{
   width: 70%;
   background-color: white;
   float: left;
+}
+
+.slider{
+    padding: 10px;
 }
 
 .post{
