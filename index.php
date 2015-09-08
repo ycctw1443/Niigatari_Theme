@@ -58,7 +58,7 @@
                 <?php endif: ?>
 
                 <div class="posts">
-
+                    <?php query_posts('post_type=post&paged='.$paged); ?>
                     <?php
                     if (have_posts()) :
                         while (have_posts()) :
@@ -76,13 +76,7 @@
                         </div>
                         <div class="post-content">
                             <div class="post-image">
-
-                            <?php if (has_post_thumbnail()) : ?>
-                            <?php the_post_thumbnail(array(100,100)); ?>
-                            <?php else: ?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/niigatari_thumbnail.jpg" width="100" height="100">
-                            <?php endif; ?>
-
+                                <?php the_post_thumbnail(array(100,100)); ?>
                             </div>
                             <div class="post-body">
                                 <?php the_excerpt(); ?>
@@ -98,6 +92,7 @@
                     <?php
                         endif;
                     ?>
+                    <?php wp_reset_query(); ?>
 
                 </div>
 

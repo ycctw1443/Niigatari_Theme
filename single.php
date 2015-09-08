@@ -2,7 +2,6 @@
         <div class="main">
             <div class="contents">
                 <div class="posts">
-
                     <?php
                     if (have_posts()) :
                         while (have_posts()) :

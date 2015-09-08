@@ -4,17 +4,16 @@
 
     <div class="sidebar-posts">
 	最近の記事<br>
+    <?php query_posts('post_type=post&paged='.$paged); ?>
     <?php
     	if (have_posts()) :
         	while (have_posts()) :
                 	the_post();
     ?>
-
-	<div class="sidebar-post">
-                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(150,150)); ?></a>
-		<br>
-                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-
+        <div class="sidebar-post">
+            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(150,150)); ?></a>
+	        <br>
+            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
     <?php
         	endwhile;
         else:
@@ -23,7 +22,8 @@
     <?php
     		endif;
     ?>
-	</div>
+    <?php wp_reset_query(); ?>
+	    </div>
     </div>
 
 
