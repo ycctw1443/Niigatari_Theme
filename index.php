@@ -1,6 +1,7 @@
 <?php get_header(); ?>
         <div class="main">
             <div class="contents">
+                <? php if(is_home()): ?>
                     <div class="slider">
                         <!--640*360-->
                 		<!-- Start cssSlider.com -->
@@ -54,6 +55,7 @@
                 		</div>
                 		<!-- End cssSlider.com -->
                     </div>
+                <?php endif: ?>
 
                 <div class="posts">
 
