@@ -1,7 +1,7 @@
 <?php get_header(); ?>
         <div class="main">
             <div class="contents">
-                <? php if(is_home()): ?>
+                <?php if(is_home()): ?>
                     <div class="slider">
                         <!--640*360-->
                 		<!-- Start cssSlider.com -->
@@ -55,7 +55,7 @@
                 		</div>
                 		<!-- End cssSlider.com -->
                     </div>
-                <?php endif: ?>
+                <?php endif; ?>
 
                 <div class="posts">
                     <?php query_posts('post_type=post&paged='.$paged); ?>
